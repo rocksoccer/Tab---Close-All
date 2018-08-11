@@ -1,0 +1,1 @@
+This is a very simple addon to add close all tabs button to tabs
