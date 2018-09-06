@@ -3,7 +3,7 @@
 require('./test-helper')
 
 describe('tab menu close all', () => {
-  const tabMenuCloseAll = require('../src/tab_menu_close_all').tab_menu_close_all
+  const { tabMenuCloseAll } = require('../src/tab_menu_close_all')
 
   describe('when there is error when creating menu', () => {
     beforeEach(() => {

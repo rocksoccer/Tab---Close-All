@@ -7,7 +7,7 @@ function onCreated () {
   }
 }
 
-exports.tab_menu_close_all = {
+exports.tabMenuCloseAll = {
   createMenu: () => {
     browser.menus.create({
       id: closeAllId,
