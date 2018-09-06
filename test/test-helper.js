@@ -1,0 +1,1 @@
+browser['menus'] = require('./helpers/menus').menus;
