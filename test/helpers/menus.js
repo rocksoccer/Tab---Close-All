@@ -11,7 +11,7 @@ exports.menus = {
   }),
   onClicked: {
     addListener: jest.fn((listener) => {
-      listeners.recordListener('menus', 'onClicked', listener);
+      listeners.recordListener('menus', 'onClicked', listener)
     })
   }
 }

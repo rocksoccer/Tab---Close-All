@@ -15,9 +15,9 @@ exports.listeners = {
       }
     }
   },
-  trigger: (host, type, params)=>{
-    allListeners[host][type].forEach((listener)=>{
-      listener.apply(null, params);
-    });
+  trigger: (host, type, params) => {
+    allListeners[host][type].forEach((listener) => {
+      listener.apply(null, params)
+    })
   }
 }

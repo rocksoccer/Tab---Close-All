@@ -12,11 +12,12 @@
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.5.0",
-    "jest-webextension-mock": "^3.4.0"
+    "jest-webextension-mock": "^3.4.0",
+    "jest-when": "^1.1.0"
   },
   "scripts": {
     "test": "jest",
-    "coverage": "nyc --reporter=html --reporter=text mocha test/**/*.test.js --timeout 60000"
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
